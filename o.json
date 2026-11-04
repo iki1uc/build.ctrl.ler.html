@@ -1,0 +1,94 @@
+
+  {
+    "S": 12,
+    "ful": 40,
+    "kartor": 8.2,
+    "shared": [
+      "alpha"
+    ],
+    "depths": [
+      1,
+      2
+    ],
+    "mode": "RAW",
+    "id": "cache-01"
+  },
+  {
+    "S": 25,
+    "ful": 81,
+    "kartor": 31.7,
+    "shared": [
+      "beta",
+      "gamma"
+    ],
+    "depths": [
+      1,
+      2,
+      3
+    ],
+    "mode": "6e",
+    "id": "cache-02",
+    "state": "FAIL"
+  },
+  {
+    "S": 4,
+    "ful": 9,
+    "kartor": 2.1,
+    "shared": [],
+    "depths": [
+      1
+    ],
+    "mode": "6d",
+    "id": "cache-03",
+    "miss": 1
+  },
+  {
+    "S": 19,
+    "ful": 55,
+    "kartor": 17.9,
+    "shared": [
+      "delta"
+    ],
+    "depths": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "mode": "12e",
+    "id": "cache-04",
+    "rdy": 1
+  },
+  {
+    "S": 28,
+    "ful": 96,
+    "kartor": 44.3,
+    "shared": [
+      "eps",
+      "zeta",
+      "eta"
+    ],
+    "depths": [
+      1,
+      2
+    ],
+    "mode": "RAW",
+    "id": "cache-05"
+  },
+  {
+    "S": 9,
+    "ful": 22,
+    "kartor": 5.5,
+    "shared": [
+      "theta"
+    ],
+    "depths": [
+      1,
+      2,
+      3
+    ],
+    "mode": "6e",
+    "id": "cache-06",
+    "fail": 1
+  }
+]
