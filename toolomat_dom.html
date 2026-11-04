@@ -1,4 +1,13 @@
-<script type="module">
-import { OR_INJECT } from "./OR_INJECT.js";
-OR_INJECT("toolomat_dom");
-</script>
+// 1. Was ist Essenz?
+const ESSENZ = ["GEOMETRIA", "OR_KERNEL", "call"];
+
+// 2. Alles andere = TMP/RÄR
+OR_INJECT.clean = (name) => {
+  if (!ESSENZ.includes(name)) {
+    console.log(name + " → Q/ (Schutt)");
+    // nicht laden, nach Q schieben
+  }
+};
+
+OR_INJECT.clean("toolomat_dom"); // → Q/
+OR_INJECT.clean("toolomat_flaeche_48"); // → Q/
